@@ -45,7 +45,7 @@ public class Shape {
         Point thatCenter = that.getCenter();
         double thatRadius = that.getRadius();
         if (center.distanceTo(thatCenter) < radius) return 2;
-        else if(center.distanceTo(thatCenter) <= radius + thatRadius) return 1;
+        else if (center.distanceTo(thatCenter) <= radius + thatRadius) return 1;
         return 0;
     }
     private List<Double> String2Array(String input) {
