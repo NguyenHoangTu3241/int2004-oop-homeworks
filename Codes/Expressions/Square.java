@@ -1,3 +1,4 @@
+package Expressions
 public class Square extends Expression{
     private final Expression expression;
     public int evaluate() {
